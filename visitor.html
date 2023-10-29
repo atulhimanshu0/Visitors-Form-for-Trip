@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="Visitor.css">
+     <title>Visitors Form for Trip</title>
+</head>
+<body>
+     <header>
+          <form action="" id="visitor-form">
+               <section>
+                    <label for="date">Date</label>
+                    <input type="date" id="date">
+               </section>
+               <section>
+                    <label for="Visited">Visited</label>
+                    <input type="text" placeholder="Visited" id="Visited">
+               </section>
+               <section>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name" id="name">
+               </section>
+               <section>
+                    <label>Gender</label>
+                    <input type="radio" name="Gender" value="male"> Male
+                    <input type="radio" name="Gender" value="female"> Female
+                    <input type="radio" name="Gender" value="others"> Others
+               </section>
+               <section>
+                    <label for="purpose">Purpose</label>
+                    <select id="purpose">
+                         <option value="Purpose-1">Purpose-1</option>
+                         <option value="Purpose-2">Purpose-2</option>
+                         <option value="Purpose-3">Purpose-3</option>
+                    </select>
+               </section>
+               <section>
+                    <label for="whom-to-meet">Whom to Meet</label>
+                    <select id="whom-to-meet">
+                         <option value="Person-1">Person-1</option>
+                         <option value="Person-2">Person-2</option>
+                         <option value="Person-3">Person-3</option>
+                    </select>
+               </section>
+               <section>
+                    <label for="Intime">Intime</label>
+                    <input type="time" placeholder="time" id="Intime">
+               </section>
+               <section>
+                    <label for="tokenId">Token ID</label>
+                    <input type="number" placeholder="Token ID" id="tokenId">
+               </section>
+               <section>
+                    <label for="total_number">Person count</label>
+                    <input type="text" placeholder="Total number" id="total_number">
+               </section>
+               <section>
+                    <label for="phone">Phone no</label>
+                    <input type="tel" placeholder="Phone" id="phone">
+               </section>
+               <section>
+                    <label for="image">Image</label>
+                    <input type="file" id="image">
+               </section>
+               <section class="btn">
+                    <input type="submit" value="Submit" id="btn">
+               </section>
+          </form>
+     </header>
+</body>
+<script src="Visitor.js"></script>
+<script>
+</script>
+</html>
